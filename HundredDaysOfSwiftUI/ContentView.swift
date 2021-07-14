@@ -10,14 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
-            Text("SwiftUI").font(.title)
-                .foregroundColor(.green)
-            HStack{
-                 Text("iOS, Objective-c, Swift").font(.title2)
-                   .foregroundColor(.gray)
-                Text("Flutter Dart").font(.title2)
+            MapView().frame(height: 300)
+            CircleImage()
+                .offset(y: -150)
+                .padding(.bottom, -150)
+            Divider()
+            VStack (alignment : .leading){
+                Text("Mobile Engineer").font(.title2)
                   .foregroundColor(.gray)
-            }
+            }.padding()
         }
     }
 }

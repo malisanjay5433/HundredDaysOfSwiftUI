@@ -12,6 +12,7 @@
 		91D01502269DB03700E172B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D01501269DB03700E172B6 /* Assets.xcassets */; };
 		91D01505269DB03700E172B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D01504269DB03700E172B6 /* Preview Assets.xcassets */; };
 		91D0150E269EA4A200E172B6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D0150D269EA4A200E172B6 /* CircleImage.swift */; };
+		91D01511269EAA4200E172B6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D01510269EAA4200E172B6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		91D01504269DB03700E172B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91D01506269DB03700E172B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91D0150D269EA4A200E172B6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		91D01510269EAA4200E172B6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		91D014FC269DB03400E172B6 /* HundredDaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				91D0150F269EAA1800E172B6 /* Map */,
 				91D0150C269EA48D00E172B6 /* View */,
 				91D014FD269DB03400E172B6 /* HundredDaysOfSwiftUIApp.swift */,
 				91D014FF269DB03400E172B6 /* ContentView.swift */,
@@ -78,6 +81,14 @@
 				91D0150D269EA4A200E172B6 /* CircleImage.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		91D0150F269EAA1800E172B6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				91D01510269EAA4200E172B6 /* MapView.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			files = (
 				91D01500269DB03400E172B6 /* ContentView.swift in Sources */,
 				91D014FE269DB03400E172B6 /* HundredDaysOfSwiftUIApp.swift in Sources */,
+				91D01511269EAA4200E172B6 /* MapView.swift in Sources */,
 				91D0150E269EA4A200E172B6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
