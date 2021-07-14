@@ -11,6 +11,7 @@
 		91D01500269DB03400E172B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D014FF269DB03400E172B6 /* ContentView.swift */; };
 		91D01502269DB03700E172B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D01501269DB03700E172B6 /* Assets.xcassets */; };
 		91D01505269DB03700E172B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D01504269DB03700E172B6 /* Preview Assets.xcassets */; };
+		91D0150E269EA4A200E172B6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D0150D269EA4A200E172B6 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		91D01501269DB03700E172B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D01504269DB03700E172B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91D01506269DB03700E172B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D0150D269EA4A200E172B6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		91D014FC269DB03400E172B6 /* HundredDaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				91D0150C269EA48D00E172B6 /* View */,
 				91D014FD269DB03400E172B6 /* HundredDaysOfSwiftUIApp.swift */,
 				91D014FF269DB03400E172B6 /* ContentView.swift */,
 				91D01501269DB03700E172B6 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				91D01504269DB03700E172B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91D0150C269EA48D00E172B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91D0150D269EA4A200E172B6 /* CircleImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				91D01500269DB03400E172B6 /* ContentView.swift in Sources */,
 				91D014FE269DB03400E172B6 /* HundredDaysOfSwiftUIApp.swift in Sources */,
+				91D0150E269EA4A200E172B6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
